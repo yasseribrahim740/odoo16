@@ -34,5 +34,5 @@ services:
       - ./enterprise:/mnt/enterprise-addons
       - ./workspace:/mnt/company-addons
     restart: always             # run as a service
- volumes:
-   - postgresql:
+volumes:
+   postgresql:
